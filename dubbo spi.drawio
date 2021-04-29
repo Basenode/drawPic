@@ -1,1 +1,183 @@
-<mxfile host="app.diagrams.net" modified="2021-04-29T17:11:49.283Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" version="14.6.1" etag="UEii-_fiR8PP1v6KLMjv" type="github"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">7VhZc9MwEP41Hp5gfBQnecRp0wKhU2ihw6NiK7aI7DWynINfzyqWYzsOOYD0yDQv0a43K2m/b4/YcPrx/FKQNPoEAeWGbQZzwzk3bNuybQe/lGZRaLq9bqEIBQu0UaW4Zb+oVppam7OAZg1DCcAlS5tKH5KE+rKhI0LArGk2Bt7cNSUhbSlufcLb2nsWyEjfwu5U+ivKwqjc2XJ7xZOYlMb6JllEApjVVM6F4fQFgCxW8bxPuQpeGZf794t7Ppy4lx8+Zz/JV+/j3fW314WzwSE/WV1B0ET+X9d24XpKeK7jpe8qF2UABeRJQJUT03C8SMYclxYuf1ApFxpwkktAFQgZQQgJ4UOAVNuNIZHazFIyTYJ3CliURxz8SaEaMM71Hihp+y5KmRQwWWGnHKyAUMacjCj3iD8JlwftAweBjxJIqHIVIBn0XarDXVRab8/YagwyyIVPt9jpbJFEhHSbP7ewU+er8VQjd0khplIs0EBQTiSbNslMdE6EK7sKd1xo6A+ggdOiwZDEqcp6oFnySuJqBmKyhRsKl1nEJL1NyTJAMywnTb7UeYBX9UJOskyjuAPkw0CaUiHpfGtYy6euzu2yuGlxVlUKq0z/qFYlzswjAXHWAuI7Fs+XlPyXlHT3TMmyY+3MSU2Wkhh7p6j2dAMskTUTGI8zPNg6dVYb/j2b3rbYdA0tMu3G41nT7ZHI1DmMS9aT55L7hxbhcgyDNxK4CtUq5XkYIlnQXWI4g3btiiAe5dnudtHAWDFoQGLGVbyuKJ9SyXyyoakQzkLc99xHuKnYTB7ckiUhSm4l3S3JivX3iM2m02w2K7nebcwN3aZ7rG7TaWF6g+gV0NkmX+J7Yh3fsddA6D12y+/uU6SfdQl+8I5fVtPdLd/as0xr9phvHPw0CPT0p4DeXjPlyxhwHIbZpzYIlCes8cnL+ag9CYxykSwHAcjlyySwbRKwNzWhB50EykJYA/ULTQlDMM3hKc4B6//8z5zHngPKStGEgKuY2maRYSeGwfos5ljHwwDF6k1tUQqr993OxW8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-29T17:36:22.255Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="t-RPHMpMqNPXh0zPpkc-" version="14.6.1" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fe7EvbnMttBvc-4abCSX-0" target="Fe7EvbnMttBvc-4abCSX-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-0" value="简单为每个接口构造一个扩展点加载器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="210" y="80" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-1" value="ExtensionLoader&amp;lt;Person&amp;gt; extensionLoader = ExtensionLoader.getExtensionLoader(Person.class);" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="80" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fe7EvbnMttBvc-4abCSX-2" target="Fe7EvbnMttBvc-4abCSX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-2" value="获取默认扩展类&lt;br&gt;@SPI(&quot;xx&quot;)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-4" value="extensionLoader.getExtension(&quot;black&quot;);" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="170" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fe7EvbnMttBvc-4abCSX-5" target="Fe7EvbnMttBvc-4abCSX-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-5" value="加载、解析文件" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-7" value="创建扩展点实例对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="280" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-8" value="getExtensionClasses().get(name);" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="320" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-9" value="&lt;div&gt;根据接口的全限定名去META-INF/dubbo/internal/目录下寻找对应的文件，调用loadResource方法进行加载&lt;/div&gt;&lt;div&gt;根据接口的全限定名去META-INF/dubbo/目录下寻找对应的文件，调用loadResource方法进行加载&lt;/div&gt;&lt;div&gt;根据接口的全限定名去META-INF/services/目录下寻找对应的文件，调用loadResource方法进行加载&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="310" width="570" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fe7EvbnMttBvc-4abCSX-10" target="Fe7EvbnMttBvc-4abCSX-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-10" value="解析文件的数据：&lt;br&gt;#表示注解&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-12" value="loadResource" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="430" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fe7EvbnMttBvc-4abCSX-13" target="Fe7EvbnMttBvc-4abCSX-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-13" value="if 当前接口手动指定了Adaptive类，赋值给cachedAdaptiveClass属性" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="210" y="570" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-15" value="loadClass" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="550" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-16" value="&lt;span&gt;name可以有多个，用逗号分隔&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="530" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fe7EvbnMttBvc-4abCSX-17" target="Fe7EvbnMttBvc-4abCSX-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-17" value="else if 如果是一个wrapper类，赋值给cachedWrapperClasses属性" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-19" value="判断依据：&lt;br&gt;clazz.getConstructor(type)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="660" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fe7EvbnMttBvc-4abCSX-20" target="Fe7EvbnMttBvc-4abCSX-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-20" value="else 需要有无参构造函数或者在实现类有@Extension(&quot;xx&quot;)注解&lt;br&gt;获取逗号分隔的多个名字，设置cachedNames --- &amp;lt;clazz: name&amp;gt;&lt;br&gt;extensionClasses----&amp;lt;name: clazz&amp;gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="170" y="770" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fe7EvbnMttBvc-4abCSX-22" target="Fe7EvbnMttBvc-4abCSX-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-22" value="实例缓存，如果没有实例，创建实例再缓存EXTENSION_INSTANCES" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190" y="940" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fe7EvbnMttBvc-4abCSX-24" target="Fe7EvbnMttBvc-4abCSX-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fe7EvbnMttBvc-4abCSX-24" target="Fe7EvbnMttBvc-4abCSX-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fe7EvbnMttBvc-4abCSX-24" target="Fe7EvbnMttBvc-4abCSX-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="1170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-24" value="根据setter方法获取参数类型与属性名，从objectFactory中获取到对象，然后调用set方法进行注入&lt;br&gt;objectFactory.getExtension(pt, property)" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="530" y="940" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-26" value="依赖注入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="450" y="910" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-27" value="injectExtension" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="930" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fe7EvbnMttBvc-4abCSX-28" target="Fe7EvbnMttBvc-4abCSX-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-28" value="支持哪些ExtensionFactory (Spi, SPring)，添加到factories属性中" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="800" y="750" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-30" value="AdaptiveExtensionFactory" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="625" y="760" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-31" value="遍历两个ExtensionFactory，从ExtensionFactory中得到实例，只要从某个ExtensionFactory中获取到对象实例就可以了" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1075" y="750" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-33" value="SpringExtensionFactory,, SpiExtensionFactory" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1148" y="670" width="142" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fe7EvbnMttBvc-4abCSX-34" target="Fe7EvbnMttBvc-4abCSX-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-34" value="如果接口上存在SPI注解，就不从spring中获取对象实例了" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="900" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-36" value="有@Adaptive注解" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="685" y="730" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-37" value="SpringExtensionFactory" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="760" y="940" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fe7EvbnMttBvc-4abCSX-38" target="Fe7EvbnMttBvc-4abCSX-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-38" value="从ApplicationContext中获取bean, byname" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1100" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-40" value="byType" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1300" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fe7EvbnMttBvc-4abCSX-42" target="Fe7EvbnMttBvc-4abCSX-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-42" value="接口上存在SPI注解" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="810" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-44" value="SpiExtensionFactory" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="1180" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fe7EvbnMttBvc-4abCSX-45" target="Fe7EvbnMttBvc-4abCSX-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-45" value="首先从缓存拿（cachedAdaptiveInstance），拿不到就创建" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1000" y="1140" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-47" value="loader.getAdaptiveExtension();" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="950" y="1220" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fe7EvbnMttBvc-4abCSX-48" target="Fe7EvbnMttBvc-4abCSX-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-48" value="获取当前接口的所有扩展类，若缓存有了@Adaptive注解标记的类（cachedAdaptiveClass）就返回" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1241" y="1140" width="219" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-50" value="injectExtension((T) getAdaptiveExtensionClass().newInstance());" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1070" y="1100" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-51" value="如果某个接口没有手动指定一个Adaptive类，那么就自动生成一个Adaptive类" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1570" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-53" value="&lt;div&gt;// 本质上生成的代理对象是这样的：&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // XX(URL url){name = url.getParam(type); class c = ExtensionLoader.getExtension(name); c.process()}&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1660" y="1220" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe7EvbnMttBvc-4abCSX-54" value="compiler.compile(code, classLoader);" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1710" y="1120" width="220" height="49" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
