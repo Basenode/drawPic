@@ -1,1 +1,119 @@
-<mxfile host="app.diagrams.net" modified="2022-11-05T15:45:16.920Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.5.2" etag="vjnYcGsq3UfLyaay_MxH" type="github"><diagram id="rRINkoVPD2oHAfETs6Ag">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-05T16:55:19.106Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="WXv60SEFTVQBnlH6f2GW" version="20.5.2" type="github">
+  <diagram id="rRINkoVPD2oHAfETs6Ag" name="第 1 页">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxeUl2hsS55cW6gYHLh-1" target="GXxeUl2hsS55cW6gYHLh-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-1" value="AbstractAutowireCapableBeanFactory,doCreateBean&lt;br&gt;---&amp;gt;populateBean" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="60" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxeUl2hsS55cW6gYHLh-2" target="GXxeUl2hsS55cW6gYHLh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-2" value="处理BY_TYPE,BY_NAME&lt;br&gt;1.autowireByName&lt;br&gt;2.autowireByType" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="170" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxeUl2hsS55cW6gYHLh-4" target="GXxeUl2hsS55cW6gYHLh-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-4" value="unsatisfiedNonSimpleProperties" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="270" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-6" value="&lt;div&gt;pd.getWriteMethod() != null &amp;amp;&amp;amp; !isExcludedFromDependencyCheck(pd) &amp;amp;&amp;amp; !pvs.contains(pd.getName()) &amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;					&lt;/span&gt;!BeanUtils.isSimpleProperty(pd.getPropertyType())&lt;/div&gt;&lt;div&gt;1. 需要有set方法，spring会将set方法名字当做beanName查找&lt;/div&gt;&lt;div&gt;2.如果前面自己已经赋值过，就不再处理&lt;/div&gt;&lt;div&gt;3.不支持简单类型，Number、Date这种&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=28;" vertex="1" parent="1">
+          <mxGeometry x="480" y="210" width="310" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="GXxeUl2hsS55cW6gYHLh-7" target="GXxeUl2hsS55cW6gYHLh-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-7" value="registerDependentBean&lt;br&gt;记录依赖关系" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="370" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxeUl2hsS55cW6gYHLh-9" target="GXxeUl2hsS55cW6gYHLh-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-9" value="InstantiationAwareBeanPostProcessor.postProcessProperties&lt;br&gt;AutowiredAnnotationBeanPostProcessor.处理Autowired注解&lt;br&gt;CommonAnnotationBeanPostProcessor.处理Resource注解" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="40" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxeUl2hsS55cW6gYHLh-11" target="GXxeUl2hsS55cW6gYHLh-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-11" value="&lt;div&gt;AutowiredAnnotationBeanPostProcessor extends InstantiationAwareBeanPostProcessorAdapter&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;		&lt;/span&gt;implements MergedBeanDefinitionPostProcessor, PriorityOrdered, BeanFactoryAware&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="180" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxeUl2hsS55cW6gYHLh-13" target="GXxeUl2hsS55cW6gYHLh-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-13" value="&lt;div&gt;执行MergedBeanDefinitionPostProcessor接口的postProcessMergedBeanDefinition（看生命周期部分）&lt;/div&gt;&lt;div&gt;寻找注入点&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="300" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxeUl2hsS55cW6gYHLh-16" target="GXxeUl2hsS55cW6gYHLh-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-16" value="findAutowiringMetadata&lt;br&gt;如果缓存中没有，就解析&lt;br&gt;buildAutowiringMetadata" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="985" y="400" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxeUl2hsS55cW6gYHLh-18" target="GXxeUl2hsS55cW6gYHLh-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-18" value="1、先查找属性注入点&lt;br&gt;2、再查找方法注入点&lt;br&gt;3、封装成InjectionMetadata对象" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="985" y="510" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-20" value="1，如果是静态属性或者方法，则不会处理，原因在于原型bean会有问题&lt;br&gt;2、findAutowiredAnnotation中autowiredAnnotationTypes属性在AutowiredAnnotationBeanPostProcessor 初始化时，会添加Autowired、Value、Inject，如果属性或者方法被这些修饰，则会被当做注入点&lt;br&gt;3、如果set方法没有属性，也会被执行&lt;br&gt;4、桥接方法的处理" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="490" width="290" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxeUl2hsS55cW6gYHLh-21" target="GXxeUl2hsS55cW6gYHLh-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-21" value="执行InstantiationAwareBeanPostProcessorAdapter.postProcessProperties" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="630" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="GXxeUl2hsS55cW6gYHLh-23" target="GXxeUl2hsS55cW6gYHLh-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;entryX=0.599;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GXxeUl2hsS55cW6gYHLh-23" target="GXxeUl2hsS55cW6gYHLh-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1575" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-23" value="findAutowiringMetadata,此时能够从缓存中获取注入点&lt;br&gt;metadata.inject" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="730" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-25" value="AutowiredAnnotationBeanPostProcessor的内部类：&lt;br&gt;AutowiredFieldElement.inject" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="840" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-27" value="&lt;font color=&quot;#ff0000&quot;&gt;字段注入为啥不checkPropertySkipping&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="735" y="805" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="GXxeUl2hsS55cW6gYHLh-29" target="GXxeUl2hsS55cW6gYHLh-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-29" value="AutowiredAnnotationBeanPostProcessor的内部类：&lt;br&gt;AutowiredMethodElement.inject" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="840" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-30" value="checkPropertySkipping&lt;br&gt;如果程序员自己指定了属性值，就不处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="950" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="GXxeUl2hsS55cW6gYHLh-34" target="GXxeUl2hsS55cW6gYHLh-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GXxeUl2hsS55cW6gYHLh-34" target="GXxeUl2hsS55cW6gYHLh-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-34" value="ibp.postProcessProperties" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="470" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-36" value="applyPropertyValues&lt;br&gt;实际赋值" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="570" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxeUl2hsS55cW6gYHLh-38" value="&lt;font color=&quot;#000000&quot;&gt;这里并不会实际赋值，而是加到属性描述器中，PropertyValues&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="850" width="120" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
